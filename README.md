@@ -9,5 +9,5 @@
 
 1. Convert Image to greyscale
 2. Calculate Gradients for each image
-3. Computer HoG feature for each image
+3. Compute HoG feature for each image
 4. Classify images using 3-NN classifier
