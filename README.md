@@ -1,13 +1,14 @@
-# Human-Detection
+# Human Detection
+*Detect humans in a scene by analyzing image gradients*
 
-* Implemented Histogram of Oriented Gradients(HoG) to extract features from gradients of grayscale images
-* Trained model using k-nearest neighbor approach
-
-**Algorithms Used:** HoG, k-NN
-
-## Project Workflow
+###  Description
 
 1. Convert Image to greyscale
 2. Calculate Gradients for each image
 3. Compute HoG feature for each image
 4. Classify images using 3-NN classifier
+
+**Algorithms:** HoG (Histogram of Oriented Gradients), k-NN (k- Nearest Neighbor)
+
+### Tech Stack
+Python, Computer Vision
